@@ -15,7 +15,7 @@ spec:
       terminationGracePeriodSeconds: 60
       containers:
       - name: stock-grpc
-        image: 10.1.53.65:5000/aosom-pop/stock:1.0.0-SNAPSHOT
+        image: 10.1.53.65:5000/aosom-pop/stock:1.0.1-SNAPSHOT
         imagePullPolicy: Always
         readinessProbe:
           tcpSocket:
