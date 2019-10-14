@@ -10,7 +10,7 @@ metadata:
 spec:
   releaseName: podinfo-dev
   chart:
-    git: git@github.com:stefanprodan/gitops-helm
+    git: git@github.com:13567436138/pop-k8s-deploy.git
     path: charts/podinfo
     ref: master
   values:
